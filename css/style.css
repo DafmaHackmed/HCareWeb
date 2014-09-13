@@ -1,15 +1,29 @@
 html, body{
-	width:100%;
-	height:100%;
 	margin:0;
+	font-family: 'Dosis', sans-serif;
+}
+.page-title{
+	float:left;
+	width:100%;
+	margin:0;
+	padding:0 0 1% 0;
+	line-height:50px;
+	height:10%;
+	box-sizing:border-box;
+	background-color:#ffcd00;
+}
+.aree-container{
+	height:90%;
+	float:left;
+	width:100%;
 }
 .container{
+	background-color: #ebebeb;
 	text-align:center;
 	box-sizing:border-box;
-	margin:0 1% 0 1%;
-	padding:1% 0 1% 0;
-	width:98%;
-	height: 100%
+	padding:0 0 2.5% 0;
+	width:100%;
+	height:100%;
 }
 .area{
 	position:relative;
@@ -17,7 +31,9 @@ html, body{
 	width:33.3%;
 	height:50%;
 	box-sizing:border-box;
-	border:2px solid black;
+}
+.second-row{
+	border-top:10px solid #fff;
 }
 .area-image{
 	width:80%;
@@ -25,18 +41,27 @@ html, body{
 	float:left;
 	
 }
+.room-name{
+	width:100%;
+	height:15%;
+	padding-top:5%;
+	padding-bottom:2.5%;
+	margin:0;
+}
 .area img{
 	width:50%;
-	height:90%;
-	padding-bottom:10%;
+	height:70%;
 }
 .components-container{
 	float:left;
-	margin:5% 0 5% 5%;
+	margin:5% 0 0 5%;
 	width:15%;
+	height:85%;
+	border-right:5px solid #fff;
+	box-sizing:border-box;
 }
 .components-container img{
 	height:auto;
-	border:1px solid black;
-	padding:2%;
+	padding:20%;
+	margin-bottom:5%;
 }
